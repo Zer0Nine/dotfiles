@@ -1,0 +1,7 @@
+[mode]
+normal_main = {fg = "white", bg = "blue"}
+normal_alt = {fg = "blue", bg = "white"}
+select_main = {fg = "white", bg = "red"}
+select_alt = {fg = "red", bg = "white"}
+unset_main = {fg = "white", bg = "red"}
+unset_alt = {fg = "red", bg = "white"}
