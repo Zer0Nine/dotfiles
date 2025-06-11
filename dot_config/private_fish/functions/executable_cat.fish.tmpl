@@ -1,5 +1,5 @@
 function cat --wraps=bat --description 'alias cat=bat'
-  {{- if eq .osRelease.id "ubuntu" }}
+  {{- if eq .chezmoi.osRelease.id "ubuntu" }}
   batcat $argv
   {{- else}}
   bat $argv
