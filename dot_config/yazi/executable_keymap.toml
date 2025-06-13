@@ -3,25 +3,25 @@ on   = "<Esc>"
 run  = "close"
 desc = "Cancel input"
 
-[[manager.prepend_keymap]]
+[[mgr.prepend_keymap]]
 on   = "!"
 for  = "unix"
 run  = 'shell "$SHELL" --block'
 desc = "Open $SHELL here"
 
-[[manager.prepend_keymap]]
+[[mgr.prepend_keymap]]
 on = ["c", "h"]
 run = "hardlink"
 desc = "Hardlink yanked files"
 
 # chmod
-[[manager.prepend_keymap]]
+[[mgr.prepend_keymap]]
 on   = [ "c", "m" ]
 run  = "plugin chmod"
 desc = "Chmod on selected files"
 
 # bunny
-[[manager.prepend_keymap]]
+[[mgr.prepend_keymap]]
 desc = "Start bunny.yazi"
 on = "."
 run = "plugin bunny"
