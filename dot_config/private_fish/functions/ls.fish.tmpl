@@ -1,0 +1,7 @@
+function ls --wraps='eza -a --icons' --wraps='eza -a --icons --hyperlinks' --description 'alias ls=eza -a --icons --hyperlink'
+  {{- if eq .chezmoi.hostname "john-server" }}
+  eza -a --icons $argv
+  {{- else}}
+  eza -a --icons --hyperlink $argv
+  {{- end}}        
+end
