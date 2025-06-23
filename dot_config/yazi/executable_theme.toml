@@ -5,3 +5,7 @@ select_main = {fg = "white", bg = "red"}
 select_alt = {fg = "red", bg = "white"}
 unset_main = {fg = "white", bg = "red"}
 unset_alt = {fg = "red", bg = "white"}
+
+[tabs]
+active = {fg = "white", bg = "blue"}
+inactive = {fg = "blue", bg = "white"}

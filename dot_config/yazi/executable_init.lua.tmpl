@@ -3,8 +3,6 @@ require("full-border"):setup()
 require("bunny"):setup({
   hops = {
     { key = "/", path = "/" },
-    { key = "h",  path = "~", desc = "Home" },
-    { key = "c", path = "~/.config", desc = "Config files" },
     {{- if eq .chezmoi.hostname "john-server" }}
     { key = "j",  path = "/media/storage/John", desc = "John" },
     { key = "d",  path = "/media/ssd/docker", desc = "Docker" },
