@@ -9,3 +9,6 @@ pay-respects fish --alias fuck | source
 
 # carapace
 carapace _carapace | source
+
+# zoxide
+zoxide init --cmd cd fish | source
