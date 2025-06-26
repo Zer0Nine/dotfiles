@@ -50,7 +50,7 @@ font-feature = -calt, -liga, -dlig
 
 cursor-style = bar
 
-background-opacity = 0.9
+background-opacity = 0.85
 background-blur = true
 
 theme = OneDarkPro
