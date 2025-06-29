@@ -2,3 +2,7 @@ README.md
 {{- if eq .chezmoi.hostname "john-server" }}
 .config/ghostty
 {{- end}}
+
+{{- if ne .chezmoi.osRelease.id "ubuntu" }}
+.config/fish/functions/fd.fish
+{{- end}}
