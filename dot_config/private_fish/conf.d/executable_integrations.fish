@@ -5,7 +5,7 @@ fzf --fish | source
 starship init fish | source
 
 # pay-respects
-pay-respects fish --alias fuck | source
+# pay-respects fish --alias fuck | source
 
 # carapace
 carapace _carapace | source
