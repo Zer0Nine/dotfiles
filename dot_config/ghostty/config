@@ -45,7 +45,7 @@
 font-family-bold = JetBrainsMono Nerd Font
 font-family-italic = JetBrainsMono Nerd Font
 font-family-bold-italic = JetBrainsMono Nerd Font
-font-size = 12
+font-size = 11
 font-feature = -calt, -liga, -dlig
 
 cursor-style = bar
