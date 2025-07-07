@@ -1,5 +1,8 @@
 set -u fish_greeting
 set -g fish_term24bit 0
+{{- if eq .chezmoi.hostname "john-laptop" }}
+set -gx QT_QPA_PLATFORMTHEME 'qt6ct'
+{{- end}}
 set -gx FZF_LEGACY_KEYBINDINGS 0
 set -gx EDITOR 'micro'
 set -gx VISUAL $EDITOR

@@ -56,5 +56,6 @@ cursor-style = bar
 theme = OneDarkPro
 
 window-theme = system
+window-padding-balance = true
 
 copy-on-select = false
